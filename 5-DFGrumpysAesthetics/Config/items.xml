@@ -1,0 +1,21 @@
+<configs>
+  <insertAfter xpath="/items/item[@name='DFdrinkJarEmpty']/property[@class='Action1']/property[@name='Focused_blockname_9']">
+    <property name="Focused_blockname_10" value="DFworkingPedestalSink"/>
+  </insertAfter>
+
+  <insertAfter xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']/property[@name='Focused_blockname_8']">
+    <property name="Focused_blockname_9" value="DFworkingPedestalSink"/>
+  </insertAfter>
+
+  <insertAfter xpath="/items/item[@name='DFemptyBowl']/property[@class='Action1']/property[@name='Focused_blockname_8']">
+    <property name="Focused_blockname_9" value="DFworkingPedestalSink"/>
+  </insertAfter>
+
+  <insertAfter xpath="/items/item[@name='DFwaterBarrelEmptyItem']/property[@class='Action1']/property[@name='Focused_blockname_7']">
+    <property name="Focused_blockname_8" value="DFworkingPedestalSink"/>
+  </insertAfter>
+
+  <insertAfter xpath="/items/item[@name='DFclayBucketEmpty']/property[@class='Action1']/property[@name='Focused_blockname_8']">
+    <property name="Focused_blockname_9" value="DFworkingPedestalSink"/>
+  </insertAfter>
+</configs>
