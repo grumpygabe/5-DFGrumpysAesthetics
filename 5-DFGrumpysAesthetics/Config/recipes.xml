@@ -144,6 +144,10 @@
 		<ingredient name="resourceMechanicalParts" count="5"/>
 	</recipe>
 
+	<recipe name="JunctionBlock" count="1" craft_area="workstationMetal" craft_tool="DFtoolweldingTorch">
+			<ingredient name="resourceElectricParts" count="2"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>
 
 </append>
 </configs>

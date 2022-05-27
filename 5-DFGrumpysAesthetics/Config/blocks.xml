@@ -727,6 +727,33 @@
 	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 </block>
 
+<block name="JunctionBlock">
+	<property name="Extends" value="scrapIronNoUpgradeMaster"/>
+	<property name="Class" value="ElectricWire"/>
+	<property name="Material" value="Mbridge_metal"/>
+	<property name="MaxDamage" value="1000"/>
+			<property name="DamageReceived" value="0.5"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="CustomIcon" value="bridgeMetalRivetBlock"/>
+	<property name="DescriptionKey" value="JunctionBlockDesc" />
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Stacknumber" value="500"/>
+
+	<property name="Texture" value="46"/>
+	<property name="RequiredPower" value="0"/>
+	<property name="Group" value="Science,Science2"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="4"/>
+		<property name="resourceElectricParts" value="1"/>
+	</property>
+	<drop event="Harvest" name="resourceElectricParts" count="0,1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,40"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="62"/>
+</block>
 
 	</append>
 
@@ -736,6 +763,9 @@
 <append xpath="/blocks/block[@name='farmPlotBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,farmPlotBlockBirdBath,farmPlotBlockPlayerMannequin</append>
 
 
-
+<!-- elevator speed fix because it is too slow for how much trouble it is -->
+<set xpath="/blocks/block[starts-with(@name, 'Elevator')]/property[@name='ElevatorUpSpeed']/@value">4.3</set>
+<set xpath="/blocks/block[starts-with(@name, 'Elevator')]/property[@name='ElevatorDownSpeed']/@value">4.3</set>
+<set xpath="/blocks/block[starts-with(@name, 'Elevator')]/property[@name='Material']/@value">MmetalCatwalk</set>
 
 </configs>

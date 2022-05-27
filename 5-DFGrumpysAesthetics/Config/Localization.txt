@@ -84,3 +84,5 @@ DFworkingPedestalSink,Working Pedestal Sink
 workingPedestalSinkDesc,Handy if you don't have a water source nearby.
 farmPlotBlockPlayerMannequin,"Mannequin Farm Plot"
 farmPlotBlockBirdBath,"Bird Bath Planter Farm Plot"
+JunctionBlock,"Junction Block"
+JunctionBlockDesc,Useful for hiding wires.
