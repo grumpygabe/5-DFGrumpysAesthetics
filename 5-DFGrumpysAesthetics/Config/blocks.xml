@@ -559,7 +559,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="wineBarrelSet"/>
 	<property name="DescriptionKey" value="MLSWineBarrelSetDesc"/>
-	<property name="Model" value="Entities/Decor/wineBarrelPrefab"/>
+	<property name="Model" value="Entities/Decor/wineBarrelSetPrefab"/>
 	<property name="HandleFace" value="South"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="ModelOffset" value=".5,.5,0"/>
@@ -677,7 +677,7 @@
 	<property name="CustomIcon" value="pedestalSink" />
 	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="#Entities/LootContainers?wallHungSinkPrefab.prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
