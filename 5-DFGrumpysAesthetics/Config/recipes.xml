@@ -109,11 +109,16 @@
 		<ingredient name="resourceMechanicalParts" count="5"/>
 	</recipe>
 
-	<recipe name="MLSHardenedChest" count="1" craft_area="workbench" craft_tool="DFtoolweldingTorch">
+	<recipe name="MLSHardenedChest" count="1" craft_area="workstationMetal" craft_tool="DFtoolweldingTorch">
 		<ingredient name="resourceForgedIron" count="20"/>
 		<ingredient name="resourceSpring" count="5"/>
 		<ingredient name="resourceElectricParts" count="5"/>
 		<ingredient name="resourceMechanicalParts" count="5"/>
+	</recipe>
+
+	<recipe name="MLSTireStack" count="1" craft_area="workbench" craft_tool="DFtoolweldingTorch">
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceForgedIron" count="5"/>
 	</recipe>
 
 	<recipe name="MLSWineBarrel" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">

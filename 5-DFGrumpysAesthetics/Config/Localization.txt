@@ -96,6 +96,9 @@ MLSLeatherTrunkDesc,"It gives a nice rustic air to the apocalypse."
 MLSHardenedChest,Lockable Hardened Chest
 MLSHardenedChestInsecure,Insecure Hardened Chest
 MLSHardenedChestDesc,"Not actually any more secure than a regular chest, but way cooler looking."
+MLSTireStack,Lockable Tire Stack
+MLSTireStackInsecure,Insecure Tire Stack
+MLSTireStackDesc,"It is good to have a few spares on hand."
 DFworkingMicrowaveOven,Working Microwave Oven
 DFworkingMicrowaveOvenDesc,"Used for crafting food and drink, with the power of science!"
 DFworkingPedestalSink,Working Pedestal Sink

@@ -742,6 +742,29 @@
 	<drop event="Destroy" name="resourceScrapIron" count="5" />
 </block>
 
+<!-- tire stack -->
+<block name="MLSTireStack">
+	<property name="Extends" value="MLSLockableMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="decoCarTireStack"/>
+	<property name="DescriptionKey" value="MLSTireStackDesc"/>
+	<property name="Model" value="#Entities/Vehicles?Car/tire_stackPrefab.prefab"/>
+	<property name="HandleFace" value="South"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="20" /> </property>
+	<drop event="Destroy" name="resourceScrapPolymers" count="4,8" tag="oreWoodHarvest"/>
+	<property name="DowngradeBlock" value="MLSTireStackInsecure"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+
+</block>
+<block name="MLSTireStackInsecure">
+	<property name="Extends" value="MLSTireStack" param1="DowngradeBlock"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Class" value="Loot"/>
+	<drop event="Destroy" name="resourceScrapPolymers" count="4,8" tag="oreWoodHarvest"/>
+</block>
+
 <!-- working microwave oven -->
 <block name="DFworkingMicrowaveOven">
 	<property name="CustomIcon" value="cntMicrowaveOvenVer2Closed" />
