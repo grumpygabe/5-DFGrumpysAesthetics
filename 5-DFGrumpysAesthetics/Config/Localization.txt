@@ -78,6 +78,24 @@ MLSDeskMetalDesc,"So you can have a desk for your apocalypse office."
 MLSNightStand,Lockable Nightstand
 MLSNightStandInsecure,Insecure Nightstand
 MLSNightStandDesc,"Bedside storage."
+MLSFirewoodStackA,Lockable Firewood Stack
+MLSFirewoodStackAInsecure,Insecure Firewood Stack
+MLSFirewoodStackADesc,"Probably full of spiders."
+MLSFirewoodStackB,Lockable Firewood Stack
+MLSFirewoodStackBInsecure,Insecure Firewood Stack
+MLSFirewoodStackBDesc,"Probably full of spiders."
+MLSFirewoodStackC,Lockable Firewood Stack
+MLSFirewoodStackCInsecure,Insecure Firewood Stack
+MLSFirewoodStackCDesc,"Probably full of spiders."
+MLSGasPump,Lockable Gasoline Pump
+MLSGasPumpInsecure,Insecure Gasoline Pump
+MLSGasPumpDesc,"There's a little sticker of Khaine on it, pointing at the broken price readout."
+MLSLeatherTrunk,Lockable Leather Trunk
+MLSLeatherTrunkInsecure,Insecure Leather Trunk
+MLSLeatherTrunkDesc,"It gives a nice rustic air to the apocalypse."
+MLSHardenedChest,Lockable Hardened Chest
+MLSHardenedChestInsecure,Insecure Hardened Chest
+MLSHardenedChestDesc,"Not actually any more secure than a regular chest, but way cooler looking."
 DFworkingMicrowaveOven,Working Microwave Oven
 DFworkingMicrowaveOvenDesc,"Used for crafting food and drink, with the power of science!"
 DFworkingPedestalSink,Working Pedestal Sink

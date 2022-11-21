@@ -1,4 +1,13 @@
 <configs>
+  <!-- This lets you fill things at the new sink.  I don't like this, since the numbers are not very flexible -->
+  <insertAfter xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']/property[@name='Focused_blockname_5']">
+    <property name="Focused_blockname_6" value="DFworkingPedestalSink"/>
+  </insertAfter>
+  
+  <insertAfter xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']/property[@name='Focused_blockname_9']">
+    <property name="Focused_blockname_10" value="DFworkingPedestalSink"/>
+  </insertAfter>
+
   <insertAfter xpath="/items/item[@name='DFdrinkJarEmpty']/property[@class='Action1']/property[@name='Focused_blockname_9']">
     <property name="Focused_blockname_10" value="DFworkingPedestalSink"/>
   </insertAfter>
@@ -7,8 +16,8 @@
     <property name="Focused_blockname_9" value="DFworkingPedestalSink"/>
   </insertAfter>
 
-  <insertAfter xpath="/items/item[@name='DFemptyBowl']/property[@class='Action1']/property[@name='Focused_blockname_8']">
-    <property name="Focused_blockname_9" value="DFworkingPedestalSink"/>
+  <insertAfter xpath="/items/item[@name='DFemptyBowl']/property[@class='Action1']/property[@name='Focused_blockname_10']">
+    <property name="Focused_blockname_11" value="DFworkingPedestalSink"/>
   </insertAfter>
 
   <insertAfter xpath="/items/item[@name='DFwaterBarrelEmptyItem']/property[@class='Action1']/property[@name='Focused_blockname_7']">

@@ -85,6 +85,37 @@
 		<ingredient name="resourceNail" count="20"/>
 	</recipe>
 
+	<recipe name="MLSFirewoodStackA" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">
+		<ingredient name="resourceWood" count="40"/>
+		<ingredient name="resourceNail" count="20"/>
+	</recipe>
+	<recipe name="MLSFirewoodStackB" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">
+		<ingredient name="resourceWood" count="40"/>
+		<ingredient name="resourceNail" count="20"/>
+	</recipe>
+	<recipe name="MLSFirewoodStackC" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">
+		<ingredient name="resourceWood" count="40"/>
+		<ingredient name="resourceNail" count="20"/>
+	</recipe>
+
+	<recipe name="MLSGasPump" count="1" craft_area="workstationMetal" craft_tool="DFtoolweldingTorch">
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceSpring" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+	</recipe>
+
+	<recipe name="MLSLeatherTrunk" count="1" craft_area="workbench" craft_tool="DFtoolweldingTorch">
+		<ingredient name="resourceLeather" count="20"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+	</recipe>
+
+	<recipe name="MLSHardenedChest" count="1" craft_area="workbench" craft_tool="DFtoolweldingTorch">
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceSpring" count="5"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+	</recipe>
+
 	<recipe name="MLSWineBarrel" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">
 		<ingredient name="resourceWood" count="40"/>
 		<ingredient name="resourceNail" count="20"/>
