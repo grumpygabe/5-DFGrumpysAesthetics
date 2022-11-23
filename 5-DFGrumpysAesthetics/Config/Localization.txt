@@ -6,78 +6,6 @@ MLSLockableMaster,Lockable Master Block
 MLSLockableToolBox,Lockable Toolbox
 MLSLockableToolBoxInsecure,Insecure Toolbox
 MLSLockableToolBoxDesc,Lots of storage for your tools.
-MLSLockableLocker,Lockable Locker
-MLSLockableLockerInsecure,Insecure Locker
-MLSLockableLockerDesc,"You can put all sorts of things in here.  Clothes.  Books.  Nerds."
-MLSGunRackSmallMagazines,Lockable Ammo Rack
-MLSGunRackSmallMagazinesInsecure,Insecure Ammo Rack
-MLSGunRackSmallMagazinesDesc,"This ammo is somehow secure but also very easily accessible."
-MLSGunRackSmallArmor,Lockable Armor Rack
-MLSGunRackSmallArmorInsecure,Insecure Armor Rack
-MLSGunRackSmallArmorDesc,"This armor is somehow secure but also very easily accessible."
-MLSGunRackLargeGuns,Lockable Gun Rack
-MLSGunRackLargeGunsInsecure,Insecure Gun Rack
-MLSGunRackLargeGunsDesc,"These guns are somehow secure but also very easily accessible."
-MLSClothesRack,Lockable Clothing Rack
-MLSClothesRackInsecure,Insecure Clothing Rack
-MLSClothesRackDesc,"I assume it isn't actually locked, but the clothes all have those little magnetic tags on.  No shoplifting."
-MLSCoffeeMaker,Lockable Coffee Maker
-MLSCoffeeMakerInsecure,Insecure Coffee Maker
-MLSCoffeeMakerDesc,"For securing your coffee."
-MLSCommercialCoffeeMaker,Lockable Industrial Coffee Maker
-MLSCommercialCoffeeMakerInsecure,Insecure Industrial Coffee Maker
-MLSCommercialCoffeeMakerDesc,"Mornings in the apocalypse can be real rough."
-MLSMicrowave,Lockable Microwave
-MLSMicrowaveInsecure,Insecure Microwave
-MLSMicrowaveDesc,"The Science Oven."
-MLSFileCabinet,Lockable File Cabinet
-MLSFileCabinetInsecure,Insecure File Cabinet
-MLSFileCabinetDesc,"For all those really important files."
-MLSConcretePallet,Lockable Pallet
-MLSConcretePalletInsecure,Insecure Pallet
-MLSConcretePalletDesc,"Bulk goods storage."
-MLSCobblestonePallet,Lockable Pallet
-MLSCobblestonePalletInsecure,Insecure Pallet
-MLSCobblestonePalletDesc,"Bulk goods storage."
-MLSCardboardBoxPallet,Lockable Pallet
-MLSCardboardBoxPalletInsecure,Insecure Pallet
-MLSCardboardBoxPalletDesc,"Bulk goods storage."
-MLSBricksPallet,Lockable Pallet
-MLSBricksPalletInsecure,Insecure Pallet
-MLSBricksPalletDesc,"Bulk goods storage."
-MLSWineBarrel,Lockable Wine Barrel
-MLSWineBarrelInsecure,Insecure Wine Barrel
-MLSWineBarrelDesc,"Bulk wine storage."
-MLSWineBarrelSet,Lockable Wine Barrel Set
-MLSWineBarrelSetInsecure,Insecure Wine Barrel Set
-MLSWineBarrelSetDesc,"Good lord... I mean, I know it is the apocalypse and everything but maybe you should think about cutting back."
-MLSVendingMachine,Lockable Vending Machine
-MLSVendingMachineInsecure,Insecure Vending Machine
-MLSVendingMachineDesc,"It doesn't make change."
-MLSDumpster,Lockable Dumpster
-MLSDumpsterInsecure,Insecure Dumpster
-MLSDumpsterDesc,"At least it isn't on fire, I guess."
-MLSCanPile,Lockable Can Pile
-MLSCanPileInsecure,Insecure Can Pile
-MLSCanPileDesc,"If you consider a can opener to be a key, I guess."
-MLSBookPile,Lockable Book Pile
-MLSBookPileInsecure,Insecure Book Pile
-MLSBookPileDesc,"Didn't want to spring for a bookshelf, eh?"
-MLSWeaponsBag,Lockable Weapons Bag
-MLSWeaponsBagInsecure,Insecure Weapons Bag
-MLSWeaponsBagDesc,"This really could be more secure."
-MLSAmmoPile,Lockable Ammo Pile
-MLSAmmoPileInsecure,Insecure Ammo Pile
-MLSAmmoPileDesc,"You couldn't find some box to put this all in?"
-MLSWoodDesk,Lockable Wooden Desk
-MLSWoodDeskInsecure,Insecure Wooden Desk
-MLSWoodDeskDesc,"So you can have a desk for your apocalypse office."
-MLSDeskMetal,Lockable Metal Desk
-MLSDeskMetalInsecure,Insecure Metal Desk
-MLSDeskMetalDesc,"So you can have a desk for your apocalypse office."
-MLSNightStand,Lockable Nightstand
-MLSNightStandInsecure,Insecure Nightstand
-MLSNightStandDesc,"Bedside storage."
 MLSFirewoodStackA,Lockable Firewood Stack
 MLSFirewoodStackAInsecure,Insecure Firewood Stack
 MLSFirewoodStackADesc,"Probably full of spiders."
@@ -87,9 +15,6 @@ MLSFirewoodStackBDesc,"Probably full of spiders."
 MLSFirewoodStackC,Lockable Firewood Stack
 MLSFirewoodStackCInsecure,Insecure Firewood Stack
 MLSFirewoodStackCDesc,"Probably full of spiders."
-MLSGasPump,Lockable Gasoline Pump
-MLSGasPumpInsecure,Insecure Gasoline Pump
-MLSGasPumpDesc,"There's a little sticker of Khaine on it, pointing at the broken price readout."
 MLSLeatherTrunk,Lockable Leather Trunk
 MLSLeatherTrunkInsecure,Insecure Leather Trunk
 MLSLeatherTrunkDesc,"It gives a nice rustic air to the apocalypse."
